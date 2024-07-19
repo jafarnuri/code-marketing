@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <link rel="stylesheet" href="./assets/css/index.css" />
+    <link rel="stylesheet" href="./assets/css/contact.css" />
   </head>
   <body>
     <div>
@@ -30,7 +31,44 @@
       </header>
 
       <main>
-        <div></div>
+        <div class="contact-main">
+          <div class="contact-top">
+            <h3>Contact Me</h3>
+            <p>
+              This is a paragraph. You can write your own content here, and fill
+              in the blanks. Tell the world about your business, and make this
+              text yours.
+            </p>
+          </div>
+          <div class="contact-bottom">
+            <form action="">
+              <div class="contact-input">
+                <div>
+                  <label for="firstname">First Name*</label>
+                  <br />
+                  <input type="text" id="firstname" name="" required />
+                </div>
+                <div>
+                  <label for="lastname">Last Name*</label>
+                  <br />
+                  <input type="text" id="lastname" name="" required />
+                </div>
+              </div>
+              <div class="contact-input1">
+                <label for="email">Email*</label>
+                <br />
+                <input type="email" name="" id="email" />
+                <br />
+                <br />
+                <label for="message">Message*</label>
+                <br />
+                <textarea name="message" id="message"></textarea>
+              </div>
+
+              <button type="submit">Submit</button>
+            </form>
+          </div>
+        </div>
       </main>
 
       <footer>

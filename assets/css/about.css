@@ -24,11 +24,15 @@
   background-color: chocolate;
 }
 .aboutp1 > p > a {
+  display: inline-block;
   color: white;
+  text-align: center;
 }
 .about-img {
+  padding: 2rem 0;
+  margin: auto;
+  object-fit: cover;
   width: 800px;
-  height: 550px;
 }
 
 .about-img img {
