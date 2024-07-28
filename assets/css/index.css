@@ -5,6 +5,10 @@
   list-style-type: none;
   box-sizing: border-box;
 }
+.container {
+  width: 1330px;
+  height: auto;
+}
 .menu {
   display: flex;
   justify-content: space-between;
@@ -34,6 +38,10 @@
   padding: 13px 25px;
   background-color: rgb(255, 135, 12);
   color: black;
+}
+header .header-hamburger {
+  display: none;
+  color: white;
 }
 .menu2 {
   position: relative;
@@ -208,4 +216,15 @@
 }
 .footer-p2 {
   padding-top: 70px;
+}
+@media screen and (max-width: 992px) {
+  header .header-hamburger {
+    display: inline-block;
+    color: white;
+    font-size: 2rem;
+    padding-right: 20px;
+  }
+  .navbar {
+    display: none;
+  }
 }
